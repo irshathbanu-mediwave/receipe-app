@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-container" id="Entry-recipe">
+        <label for="title">Title</label>
+        <input type="text" id="recipe" required /><br />
+        <br />
+        <label for="notes">Step</label><br />
+
+        <textarea rows="5" cols="30" id="get-note" required></textarea>
+        <br /><br />
+
+        <!-- <input type="submit" value="Submit" id="Submit" />
+        <br /> -->
+        <label for="time">Time</label>
+        <input type="time" id="get-time" required />
+        <br /><br />
+        <label for="img">Image</label>
+        <input type="url" id="get-img" required /><br />
+        <br />
+        <input type="submit" value="Submit" id="Submit" /><br />
+      </form>
+      <div class="total-count">
+        Total Recipies
+        <h6 id="value"></h6>
+      </div>
+    </div>
+
+    <div id="app"></div>
+  </body>
+</html>
